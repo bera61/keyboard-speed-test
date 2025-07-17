@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Üstte hizala */
+    min-height: 100vh;
+    padding-top: 300px; /* Yukarıdan boşluk bırak */
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.true , .false {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;         /* Maksimum genişlik */
+    margin-left: auto;        /* Ortalamak için */
+    margin-right: auto;       /* Ortalamak için */
+    word-break: break-word;   /* Uzun kelimeleri böl */
+    text-align: center;       /* İsteğe bağlı: metni ortala */
+}
+
+.active-word {
+    background: yellow;
+    color: black;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
